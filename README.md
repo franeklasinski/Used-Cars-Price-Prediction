@@ -17,33 +17,26 @@ Analiza i predykcja cen samochodów używanych przy użyciu uczenia maszynowego 
 - Pipeline transformacji z ColumnTransformer
 
 ### 3. **Modelowanie ML**
-- Porównanie 7 algorytmów: Linear/Ridge Regression, Random Forest, Gradient Boosting, XGBoost, SVR, Extra Trees
+- Porównanie 4 algorytmów: Linear/Ridge Regression, Random Forest, Gradient Boosting
 - Ewaluacja na podstawie R², MAE, RMSE + czas trenowania
 - Automatyczny wybór najlepszego modelu
 
 ### 4. **Wizualizacje Wyników**
 - Porównanie metryk wszystkich modeli
-- Krzywe uczenia dla najlepszego modelu
-- Wykres predykcji vs rzeczywiste wartości
-- Analiza residuów i Q-Q plot
-- Feature importance i ranking modeli
 
 ## Technologie
 - **Python** + Jupyter Notebook
 - **Pandas, NumPy** - analiza danych
 - **Matplotlib, Seaborn** - wizualizacje
 - **Scikit-learn** - modele ML
-- **XGBoost** - zaawansowane ensemble
 
 ## Uruchomienie
 ```bash
-git clone https://github.com/your-username/predict-car-price.git
-cd predict-car-price
-pip install -r requirements.txt
+git clone https://github.com/franeklasinski/Used-Cars-Price-Prediction
+.git
+cd Used-Cars-Price-Prediction
 jupyter notebook car-price.ipynb
 ```
-
-## Wyniki
 
 ### Porównane modele:
 1. **Linear Regression** - baseline
@@ -51,7 +44,7 @@ jupyter notebook car-price.ipynb
 3. **Random Forest** - ensemble drzew
 4. **Gradient Boosting** - boosting
 
-### Przykładowe wyniki:
+## Wyniki
 ```
 Najlepszy model: Random Forest
 R² Score: 0.8323
