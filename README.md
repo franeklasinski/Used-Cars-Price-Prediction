@@ -30,6 +30,10 @@ Analiza i predykcja cen samochodów używanych przy użyciu uczenia maszynowego 
 - **Matplotlib, Seaborn** - wizualizacje
 - **Scikit-learn** - modele ML
 
+
+## Dataset
+**kaggle** https://www.kaggle.com/datasets/avikasliwal/used-cars-price-prediction?utm_source=chatgpt.com&select=train-data.csv
+
 ## Uruchomienie
 ```bash
 git clone https://github.com/franeklasinski/Used-Cars-Price-Prediction
